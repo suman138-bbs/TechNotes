@@ -8,5 +8,5 @@ router.route('/')
     .patch(updateUser)
     .delete(deleteUser)
 
-
+console.log("HELLO")
 module.exports = router    
